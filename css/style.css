@@ -274,3 +274,24 @@ header ul li a{
 .small-container .text-container{
     padding-top: 20px;
 }
+
+/* TABLE OTHER INFO */
+.business-container{
+    width: 100%;
+}
+.business-container-left,
+.business-container-center,
+.business-container-right{
+    width: calc(92% / 3);
+}
+
+.business-container-center{
+    margin: 0 4%;
+}
+.business-container img{
+    width: 100%;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
