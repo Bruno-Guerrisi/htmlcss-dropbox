@@ -295,3 +295,12 @@ header ul li a{
 .text-underline{
     text-decoration: underline;
 }
+
+/* TEAM DROPBOX BUSINESS */
+.info-clients{
+    text-decoration: none;
+    color: rgb(45, 94, 255);
+}
+.info-clients:hover{
+    text-decoration: underline;
+}
