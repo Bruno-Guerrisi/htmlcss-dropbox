@@ -304,3 +304,71 @@ header ul li a{
 .info-clients:hover{
     text-decoration: underline;
 }
+
+
+/* TABLE EXAMPLE TEAM */
+.full-container{
+    width: 100%;
+    height: 200px;
+}
+.box-container-center{
+    width: 40%;
+}
+
+.box-container-left,
+.box-container-right{
+    width: calc(60% / 2);
+}
+
+/* subcontainer */
+.subcontainer-box{
+    width: 100%;
+}
+
+.box-table-left,
+.box-table-right{
+    width: 50%;
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+    width: 100px;
+}
+
+/* 4 BOX LEFT */
+.box-designit{
+    background-color: #a2d39b;
+}
+.box-uni-florida{
+    background-color: #0093ce;
+}
+.box-arizona-uni{
+    background-color: #61082b;
+}
+.box-topps{
+    background-color: #ff1c1c;
+}
+
+/* 4 BOX RIGHT */
+.box-word-bicycle{
+    background-color: #d5001f;
+}
+.box-lonely{
+    background-color: #0d2481;
+}
+.box-hearts{
+    background-color: #b4d0e7;
+}
+.box-clear{
+    background-color: #ffd830;
+}
