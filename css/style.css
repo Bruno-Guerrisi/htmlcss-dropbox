@@ -385,3 +385,19 @@ header ul li a{
 .box-container-center cite:first-of-type{
     margin: 40px 0;
 }
+
+/* DROPBOX BUSINESS FREE TRIAL */
+.free-trial{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+.free-trial .small-container{
+    padding: 100px 0;
+}
+.free-trial .small-container .box-left{
+    color: #61082b;
+}
+.free-trial .small-container .box-right button{
+    border: 0;
+    padding: 10px 40px;
+}
