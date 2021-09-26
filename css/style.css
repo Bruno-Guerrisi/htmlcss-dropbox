@@ -418,3 +418,45 @@ header ul li a{
     width: 10%;
     text-align: center;
 }
+
+/* FOOTER */
+footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #000000;
+}
+
+.list-container{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.footer-list{
+    width: calc(100% / 5);
+    color: white;
+}
+
+.footer-list nav ul li{
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 8px;
+}
+.footer-list nav ul li:first-of-type{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-list nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-language{
+    color: white;
+}
+
+.language{
+    border: 0;
+    background-color: black;
+    color: white;
+}
