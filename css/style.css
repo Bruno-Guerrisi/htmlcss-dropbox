@@ -140,6 +140,28 @@ header ul li a{
     margin-left: 15px;
 }
 
+.supp-displ{
+    position: relative;
+}
+
+/* menu help */
+.down-menu{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    min-width: 200px;
+    min-height: 90px;
+    background-color: white;
+    text-align: left;
+    border: 1px solid #b3b3b3;
+    display: none;
+    z-index: 0;
+}
+
+.down-menu li{
+    margin: 10px 10px;
+}
+
 /* MAIN SECTION */
 
 /* INTRO WEBSITE */
