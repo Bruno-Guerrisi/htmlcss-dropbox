@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* SETUP */
 .big-container{
     width: 85%;
@@ -77,6 +81,18 @@ li a{
                 box-shadow .3s;
 }
 
+/* RETURN MAIN */
+.return-main{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+}
+.return-main a i{
+    font-size: 28px;
+    color: rgb(30, 150, 0);
+}
+
 /* HEADER */
 header{
     position: fixed;
@@ -88,6 +104,7 @@ header{
     padding: 15px 10px;
     background-color: white;
     z-index: 1;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.5);
 }
 
 nav,
@@ -147,9 +164,14 @@ header ul li a{
 .text-container > span{
     font-size: 14px;
 }
-.text-container > i{
+
+.bottom-arrow{
     font-size: 40px;
     margin-top: 20px;
+}
+
+.arrow{
+    color: black;
 }
 
 .image-container{
@@ -176,7 +198,7 @@ header ul li a{
 .table-container-center,
 .table-container-right{
     width: calc(92% / 3);
-    height: 700px;
+    min-height: 700px;
     border: 1px solid #d0d0d3;
 }
 
