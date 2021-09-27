@@ -86,11 +86,18 @@ header nav ul li a:hover{
     cursor: unset;
 }
 
+
 /* ASK SECTION */
 .question p:hover,
 .question i:hover{
     cursor: pointer;
 }
+
+.reply-question-container:hover .reply{
+    display: block;
+    cursor: pointer;
+}
+
 
 /* FOOTER SECTION */
 .footer-list nav ul li:hover{
