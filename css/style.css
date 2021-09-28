@@ -84,17 +84,25 @@ li a{
                 box-shadow .3s;
 }
 
-/* RETURN MAIN */
-.return-main{
+
+/* RETURN MAIN AND HELP PEOPLE */
+.box-utility{
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
     z-index: 1;
 }
+
+.return-main{
+    margin-bottom: 20px;
+}
+
+.help-people i,
 .return-main a i{
     font-size: 28px;
-    color: rgb(30, 150, 0);
+    color: #081753;
 }
+
 
 /* HEADER */
 header{
@@ -110,8 +118,7 @@ header{
     border-bottom: 1px solid rgba(105, 105, 105, 0.5);
 }
 
-nav,
-header ul{
+nav{
     display: inline-block;
 }
 header ul li{
@@ -120,10 +127,14 @@ header ul li{
     height: 100%;
 }
 header ul li a{
-    display: inline-block;
     text-decoration: none;
     color: black;
+}
+
+.anim-header-link{
+    border-bottom: 3px solid transparent;
     padding: 15px 0;
+    display: inline-block;
 }
 
 .box-left{
@@ -149,21 +160,37 @@ header ul li a{
     position: relative;
 }
 
-.anim-header-link{
-    border-bottom: 3px solid transparent;
-}
-
 /* menu help */
 .down-menu{
     position: absolute;
     top: 100%;
     left: 0;
-    width: 200px;
     background-color: white;
     text-align: left;
     border: 1px solid #b3b3b3;
     display: none;
     z-index: 0;
+}
+
+.down-menu ul li{
+    display: block;
+    padding: 5px 0
+}
+
+.small-menu{
+    width: 200px;
+}
+
+.big-menu{
+    width: 650px;
+}
+.big-menu > div:nth-child(2){
+    margin: 0 50px;
+}
+
+.big-menu div ul li:first-of-type{
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 /* MAIN SECTION */
