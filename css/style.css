@@ -100,9 +100,29 @@ li a{
 .help-people i,
 .return-main a i{
     font-size: 28px;
-    color: #081753;
+    color: #0a217a;
 }
 
+.help-text{
+    width: 250px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.753);
+    position: absolute;
+    bottom: 0;
+    right: 110%;
+    padding: 20px 10px;
+    text-align: center;
+    color: #1f00f7;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+.help-text a{
+    text-decoration: none;
+    color: #1f00f7;
+}
 
 /* HEADER */
 header{

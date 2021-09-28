@@ -1,11 +1,13 @@
 .butt-blue:hover{
     background-color: rgb(0, 60, 255);
     box-shadow: 1px 5px 10px rgba(37, 37, 37, 0.5);
+    cursor: pointer;
 }
 .butt-white:hover{
     color: rgb(0, 60, 255);
     border-color: rgb(0, 60, 255);
     box-shadow: 1px 5px 10px rgba(37, 37, 37, 0.5);
+    cursor: pointer;
 }
 
 
@@ -23,6 +25,21 @@
         transform: translateY(10px);
     }
 }
+
+/* help section */
+.help-people:hover .help-text{
+    display: block;
+}
+
+.help-people:hover{
+    cursor: pointer;
+}
+
+.help-people a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 /* HEADER */
 .anim-header-link:hover{
